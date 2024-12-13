@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Janhavi More</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+
+        .section {
+            margin: 50px 0;
+        }
+
+        .section h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            text-align: center;
+            text-transform: uppercase;
+            position: relative;
+        }
+
+        .section h2::after {
+            content: '';
+            width: 80px;
+            height: 3px;
+            background: #fff;
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .info, .skills, .projects, .achievements {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .info p, .skills p, .projects p, .achievements p {
+            margin: 10px 0;
+        }
+
+        .skills ul, .projects ul, .achievements ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .skills ul li, .projects ul li, .achievements ul li {
+            margin: 10px 0;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .skills ul li::before {
+            content: '\1F4D6'; /* Book icon */
+            font-size: 1.2em;
+            margin-right: 10px;
+        }
+
+        .projects ul li::before {
+            content: '\1F4C8'; /* Chart icon */
+            font-size: 1.2em;
+            margin-right: 10px;
+        }
+
+        .achievements ul li::before {
+            content: '\1F3C6'; /* Trophy icon */
+            font-size: 1.2em;
+            margin-right: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+            background: rgba(0, 0, 0, 0.5);
+            margin-top: 50px;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Janhavi More</h1>
+        <p>Email: <a href="mailto:janhavimore551@gmail.com" style="color: #fff;">janhavimore551@gmail.com</a> | Location: Palghar, Maharashtra, India</p>
+        <p><a href="https://www.linkedin.com/in/janhavi-more-86a29924b/" target="_blank" style="color: #fff;">LinkedIn Profile</a></p>
+    </header>
+
+    <div class="container">
+        <div class="section info">
+            <h2>Career Objective</h2>
+            <p>To work in an organization that offers good opportunities to grow and hone my skills and utilize them for the benefit of the company/organization.</p>
+        </div>
+
+        <div class="section education">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>B.E. Civil</strong> - St. John College of Engineering and Management (2022 – 2025) | CGPA: 9.02</li>
+                <li><strong>Diploma in Civil Engineering</strong> - St. John College of Polytechnic and Technology (2020 – 2022) | Percentage: 88.84</li>
+                <li><strong>HSC</strong> - Sonopant Dandekar Shikshan Mandali (2017 – 2019) | Percentage: 58.46</li>
+                <li><strong>SSC</strong> - Kenan English High School (2005 – 2017) | Percentage: 80.4</li>
+            </ul>
+        </div>
+
+        <div class="section projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>Green Building Techniques (July 2022 – May 2023): Study on different Green Building Techniques.</li>
+                <li>Application of GIS using QGIS Software (January 2024 – May 2024): Assessment of groundwater quality in Palghar region.</li>
+                <li>Development of Sustainable Waste-to-Wealth Conversion Model (July 2024 – May 2025): Using IoT and AI technologies for solid waste management.</li>
+            </ul>
+        </div>
+
+        <div class="section achievements">
+            <h2>Achievements</h2>
+            <ul>
+                <li>Winner of "Poster Presentation" at National Level (2021).</li>
+                <li>Felicitated by ACCE for academic excellence in Diploma (2022).</li>
+                <li>First rank in Degree (Civil Engineering) till 6th semester.</li>
+                <li>Second rank in Diploma (Civil Engineering).</li>
+            </ul>
+        </div>
+
+        <div class="section skills">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Technical:</strong> Quantity Estimation, Rate Analysis</li>
+                <li><strong>Employability:</strong> Adaptability, Quick Learner, Team Building</li>
+                <li><strong>Tools/Technologies:</strong> MS Office, QGIS Software</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Janhavi More. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
